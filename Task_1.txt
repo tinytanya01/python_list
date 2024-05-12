@@ -1,0 +1,33 @@
+my_dict={'name':'Tanya','age':22,'city':'Patna'}
+
+my_dict['gender']='female'
+
+del my_dict['age']
+
+my_dict['city']='Mumbai'
+
+print("Updated Dictionary:",my_dict)
+
+list_1= [5,10,15,20,25]
+
+list_1.append(30)
+
+list_1.remove(15)
+
+list_1[1]= 45
+
+print("updated list:",list_1)
+
+my_set={1,2,6,8,10}
+
+my_set.add(5)
+
+my_set.remove(2)
+
+my_set.discard(1)
+
+my_set.add(12)
+
+print("Updated set:",my_set)
+
+
